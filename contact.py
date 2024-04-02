@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 import tkinter as tk
 from tkinter import ttk
 
@@ -49,9 +47,6 @@ class AddressBookApp(tk.Frame):
     
     def _remove_contact(self):
         pass
-
-
-# Main entry point
 root = tk.Tk()
 app = AddressBookApp(master=root)
 app.mainloop()
