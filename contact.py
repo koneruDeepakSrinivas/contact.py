@@ -35,7 +35,7 @@ class AddressBookApp(tk.Frame):
         menu_widget.add_cascade(label="Contact", menu=contact_menu)
 
         self.master.config(menu=menu_widget)
-    
+    #ending lines of the code
     def _new_addressbook(self):
         pass
     
